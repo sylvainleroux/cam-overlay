@@ -2,4 +2,6 @@ plotly
 pandas
 numpy
 jupyter
+jupyterlab
+ipywidgets
 
