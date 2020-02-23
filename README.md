@@ -1,4 +1,4 @@
-
+Install 
 ```
 python3 -m venv env
 virtualenv venv
@@ -6,9 +6,12 @@ source ./venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Run
+```
+jupyter lab .
+```
 
-
-
+Add Plotly support to jupyter lab
 ```
 # Avoid "JavaScript heap out of memory" errors during extension installation
 # (OS X/Linux)
@@ -33,4 +36,10 @@ jupyter lab build
 unset NODE_OPTIONS
 # (Windows)
 set NODE_OPTIONS=
+```
+
+Export
+
+```
+jupyter nbconvert overlay.ipynb --to markdown --output overlay.md
 ```

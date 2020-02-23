@@ -4,4 +4,7 @@ numpy
 jupyter
 jupyterlab
 ipywidgets
-
+bokeh
+opencv-python
+psutil
+jupyter_contrib_nbextensions
